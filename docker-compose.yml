@@ -1,0 +1,8 @@
+version: '3.5'
+services:
+  app:
+    container_name: samsungreg
+    build: .
+    ports:
+      - 1122:5000
+    restart: always
